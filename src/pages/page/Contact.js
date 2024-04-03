@@ -6,19 +6,24 @@ const Contact = () => {
     return (
         <div class="">
             <Hero />
-             <h2>Contact Me</h2>
-             <form>
-            <label htmlFor="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <h2 className="h22">Contact Me</h2>
+            <div class="contact-container">
+                <div class="cards">
+                
+                <form>
+                <label htmlFor="name">Name:</label> <br/>
+                <input type="text" id="name" name="name" required /> <br/>
 
-            <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+                <label htmlFor="email">Email:</label> <br/>
+                <input type="email" id="email" name="email" required /> <br/>
 
-            <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required className="contact-container textarea "></textarea>
+                <label htmlFor="message">Message:</label> <br/>
+                <textarea id="message" name="message" rows="5" required className="textarea "></textarea>
 
-            <button type="submit" className="contact-container button ">Send</button>
-            </form>
+                <button type="submit" className="contact-container button ">Send</button>
+                </form>
+            </div>
+            </div>
         </div>
     )
 } 
