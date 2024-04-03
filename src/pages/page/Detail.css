@@ -1,0 +1,51 @@
+.detail {
+    padding: 30px;
+    display: grid;
+    grid-template-rows: auto 1fr; /* Define two rows for card layout */
+    width: 40%;
+    margin: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .imgd {
+    width: 240px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .btn {
+    display: flex;
+    float: right;
+    padding: 10px 20px;
+    background-color: #4361ee;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #3b57d6;
+  }
+
+  .h3D {
+    font-size: 2rem;
+    margin-top: -3px;
+    color: #3b57d6;
+  }
+  .id {
+    color: red;
+  }

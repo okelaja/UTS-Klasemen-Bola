@@ -1,0 +1,37 @@
+.hero-container {
+  background-image: url('https://www.ole.com.ar/2021/08/20/EQa0Cln_r_1000x472__1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 170px 0;
+}
+
+.hero-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-container p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+p {
+  color:  #ffffff;
+}
+
+.hero-container button {
+  background-color: #4361ee;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-container button:hover {
+  background-color: #35469c;
+}
